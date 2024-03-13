@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git clone $2 repos/$1
+tar -zcvf repos/$1.tar.gz repos/$1
+rm -rf repos/$1
